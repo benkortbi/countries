@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+  @apply dark:bg-VeryDarkBlue;
+  @apply bg-VeryLightGray;
+}
